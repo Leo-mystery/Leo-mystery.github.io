@@ -1,37 +1,51 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Leo-mystery/Leo-mystery.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Leo-mystery/Leo-mystery.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介绍</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 50vw;
+            height:100vh;
+            background: url(./2.gif) no-repeat;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <audio src="./跳跳糖.mp3" autoplay controls loop></audio>
+    <div class="container">
+        <div>
+            <marquee behaviour=>
+             <h1> <font color="violet">我是一颗糖</font> </h1>
+                   <h2> <font color="steelblue">（一颗什么糖）</font> </h2>
+            <h1> <font color="aquamarine">我是一颗糖</font> </h1>
+                 <h2> <font color="red">（一颗什么糖）</font> </h2>
+            <h3> <font color="springgreen">我是一颗活力四射 </font><font color="olive" size="30">朝气蓬勃</font> </h1>
+            <h1> <font color="gold">五彩缤纷的 </font> <font color="darkoringe" size="30">跳跳糖</font> </h1>
+            </marquee>
+            
+            <marquee  scrolldelay="200">
+            <p1> <font color="peru">蹦 吧楞吧 楞吧 吧楞吧楞</font> </p1>
+            <p1> <font color="coral">吧啦 吧啦 蹦蹦</font> </p1>
+            <p1> <font color="tomato">谁 吧楞吧 楞吧 吧楞吧楞</font> </p1>
+            <h2> <font color="violet">我是一颗活力四射 朝气蓬勃</font> </h2>
+            <h1> <font color="lightpink">五彩缤纷的 </font><font color="springgreen" size="30">跳跳糖</font> </h1>
+            <p1> <font color="orchid">蹦 吧楞 蹦吧楞，蹦吧楞 吧楞 蹦蹦</font> </p1>
+            <p1> <font color="maroon">蹦 吧楞吧 楞吧 吧楞吧楞</font> </p1>
+            <h1> <font color="blueviolet">我是一颗活力四射 朝气蓬勃</font> </h1>
+            <h1> <font color="cyan">五彩缤纷的 </font><font color="gold" size="30">跳跳糖</font> </h1>
+        </marquee>
+        </div>
+    </div>
+              
+</body>
+</html>
